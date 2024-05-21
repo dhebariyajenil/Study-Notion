@@ -117,7 +117,8 @@ For detailed API documentation and endpoints, refer to the [API Documentation](/
 ## Configuration
 
 1. Set up a MongoDB database and obtain the connection URL.
-2. Create a `.env` file in the `server` directory with the following environment variables:
+2. You Can Also Use .env.example file as reference
+3. Create a `.env` file in the `server` directory with the following environment variables:
    ```
     MONGODB_URL="Path"
     PORT=4000
@@ -137,10 +138,10 @@ For detailed API documentation and endpoints, refer to the [API Documentation](/
     # JWT
     JWT_SECRET="StudyNotionIsSafe"
    ```
-3.You Can Also Use .env.example file as reference
+   
 ## Usage
 
-1. Start the server and client from main StudyNotion folder using concurrently : `npm run devs`
+1. Start the server and client from main StudyNotion folder using concurrently : `npm run dev`
 
 Access the application in your browser at `http://localhost:3000`.
 
