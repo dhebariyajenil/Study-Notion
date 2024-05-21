@@ -108,24 +108,39 @@ For detailed API documentation and endpoints, refer to the [API Documentation](/
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/username/repo.git`
+1. Clone the repository: `gh repo clone dhebariyajenil/Study-Notion`
 2. Navigate to the project directory: `cd StudyNotion`
 3. Install dependencies: `npm install`
+4. Navigate to the Server directory: `cd server`☻
+5. Install dependencies: `npm install`
 
 ## Configuration
 
 1. Set up a MongoDB database and obtain the connection URL.
-2. Create a `.env` file in the root directory with the following environment variables:
+2. Create a `.env` file in the `server` directory with the following environment variables:
    ```
-   MONGODB_URI=<your-mongodb-connection-url>
-   JWT_SECRET=<your-jwt-secret-key>
+    MONGODB_URL="Path"
+    PORT=4000
+    # smtp server mail sender
+    MAIL_USER=email
+    MAIL_PASS=mail pass
+    MAIL_HOST=smtp.gmail.com
+    # cloudinary
+    CLOUD_NAME=clound name
+    FOLDER_NAME=StudyNotion
+    API_KEY=api_key
+    API_SECRET=api_secret
+    # razorpay
+    RAZORPAY_KEY="rzp_test_Y6EqyWDPp3"
+    RAZORPAY_SECRET="uVazs6FdOiATLFs4s2E"
+    RAZORPAY_WEBHOOK_SIGNATURE=""
+    # JWT
+    JWT_SECRET="StudyNotionIsSafe"
    ```
-
+3.You Can Also Use .env.example file as reference
 ## Usage
 
-1. Start the server: `npm start`
-2. Open a new terminal and navigate to the `client` directory: `cd client`
-3. Start the React development server: `npm start`
+1. Start the server and client from main StudyNotion folder using concurrently : `npm run devs`
 
 Access the application in your browser at `http://localhost:3000`.
 
